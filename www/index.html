@@ -48,7 +48,7 @@ function redir()
   //poner en bdy onload="redir();"
     var strWindowFeatures = "menubar=no,location=no,scrollbars=no,directories=0,titlebar=0,status=no,width=400,height=350";
 
-      window.open('https://www.eluniverso.com/','_self','ASTINAVE APP',strWindowFeatures);
+      window.open('http://www.astinave.com.ec/consultas/sites/login.aspx','_self','ASTINAVE APP',strWindowFeatures);
 	    //window.parent.close();
   }
 		
@@ -56,14 +56,13 @@ function redir()
     </script>
 </head>
 
-<body>
+<body onload="redir();">
     <div class="app">
         <h1>PhoneGap TEST1</h1>
         <div id="deviceready" class="blink">
             <p class="event listening">Connecting to Device</p>
             <p class="event received">Device is Ready</p>
 			<h1>hola mundo! aaaaaaaaa</h1>
-			<p><a href="http://www.astinave.com.ec/consultas/sites/login.aspx" rel="external">AEP</a></p>
         </div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
