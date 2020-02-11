@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.test1" version="1.0.0">
-  <name>ASTINAVE MOBILE</name>
-  <description>Aplicativo para aprobar Planificación de Proyectos (Fase 2).</description>
+  <name>TRACKPIXEL MOBILE</name>
+  <description>APP TRACKPIXEL.</description>
   <author href="https://www.linkedin.com/in/lorenamahecha/" email="lore.mahechag@outlook.com">Lorena Mahecha G.</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
@@ -86,7 +86,7 @@
     <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows" width="1152" height="1920"/>
   </platform>
   
-  <access origin="http://www.astinave.com.ec" subdomains="false" />
+  <access origin="http://www.astinave.com.ec/lotaip/placas/consulta.aspx" subdomains="false" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
